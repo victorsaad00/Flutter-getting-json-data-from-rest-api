@@ -1,9 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_app/User.dart';
-import 'package:http/http.dart' as http;
 import 'Services.dart';
-import 'main.dart';
+
 
 class JsonParseDemo extends StatefulWidget {
   JsonParseDemo() :super();
