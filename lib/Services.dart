@@ -9,9 +9,7 @@ class Services {
     try {
       final response = await http.get(url);
       if (200 == response.statusCode ) {
-        log(response.body);
-        List<User> users = userFromJson(response.body[3]) as List<User>;
-
+        List<User> users = userFromJson(response.body);
         return users;
       } else {
         return List<User>();

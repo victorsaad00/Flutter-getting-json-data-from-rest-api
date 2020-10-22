@@ -31,7 +31,7 @@ class _JsonParseDemoState extends State<JsonParseDemo> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(_loading ? 'Loading..': 'Users'),
+        title: Text(_loading ? 'Loading...': 'Users'),
       ),
       body: Container(
         color: Colors.white,
